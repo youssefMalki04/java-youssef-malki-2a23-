@@ -1,3 +1,5 @@
+package tn.esprit.gestionzoo.entities;
+
 public class Zoo {
     animal[] animals;
     String name;
@@ -31,7 +33,7 @@ public class Zoo {
     public boolean addAnimal(animal animal){
 
         if (nbrAnimal >= NBR_CAGES) {
-            System.out.println("Le zoo est plein, impossible d'ajouter l'animal.");
+            System.out.println("Le zoo est plein, impossible d'ajouter l'tn.esprit.gestionzoo.entities.animal.");
             return false;
         }
         for (int i = 0; i < nbrAnimal; i++) {
@@ -91,6 +93,8 @@ public class Zoo {
             return null;
         }
     }
+
+
 
 
 }

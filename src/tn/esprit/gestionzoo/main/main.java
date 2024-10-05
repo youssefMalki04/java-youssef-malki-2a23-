@@ -1,3 +1,10 @@
+package tn.esprit.gestionzoo.main;
+
+import tn.esprit.gestionzoo.entities.animal;
+import tn.esprit.gestionzoo.entities.Zoo;
+
+
+
 public class main {
     public static void main(String[] args) {
         animal lion = new animal("canibale", "Lion", 5, true);

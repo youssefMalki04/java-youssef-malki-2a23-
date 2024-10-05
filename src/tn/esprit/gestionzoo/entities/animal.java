@@ -1,3 +1,5 @@
+package tn.esprit.gestionzoo.entities;
+
 public class animal {
     String family;
     String name;
