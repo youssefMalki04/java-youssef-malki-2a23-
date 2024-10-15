@@ -1,10 +1,10 @@
 package tn.esprit.gestionzoo.entities;
 
 public class penguin extends aquatic{
-    private float swimmingDepth;
+    private final float swimmingDepth;
 
     public penguin(String habitat, float swimmingDepth) {
-        super(habitat);
+        super();
         this.swimmingDepth = swimmingDepth;
     }
 

@@ -45,6 +45,7 @@ public class main {
 
         penguin1.swim();
         dolphin1.swim();
+        myZoo.displayNumberOfAquaticsByType();
 
 
 

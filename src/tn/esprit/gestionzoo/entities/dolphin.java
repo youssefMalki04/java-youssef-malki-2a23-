@@ -1,13 +1,14 @@
 package tn.esprit.gestionzoo.entities;
 
 public class dolphin extends aquatic{
-    private float swimmingSpeed;
+    private final float swimmingSpeed;
     public dolphin(String habitat, float swimmingSpeed) {
-        super(habitat);
+        super();
         this.swimmingSpeed = swimmingSpeed;
     }
 
     public float getSwimmingSpeed() {
+
         return swimmingSpeed;
     }
 
@@ -16,6 +17,7 @@ public class dolphin extends aquatic{
     }
 
     public void swim() {
+
         System.out.println("This dolphin is swimming.");
     }
 
